@@ -1,8 +1,9 @@
 {
-  "name": "flluentui-bug",
+  "name": "flluentui-list-bug",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A repro for a bug while rendering fluentui list components",
+  "repository": "https://github.com/astegmaier/fluentui-list-bug",
   "author": "Andrew Stegmaier <ansteg@microsoft.com>",
   "scripts": {
     "start": "parcel src/index.html --open",
