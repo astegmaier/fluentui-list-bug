@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2018", "DOM"] /* "ES2018" is necessary to work around https://github.com/mobxjs/mobx/issues/2210 */,
+    "jsx": "react",
+    "rootDir": "./src",
+    "noEmit": true /* We're only using tsc for type checking - parcel is the tool that actually generates the bundle. */,
+    "strict": true,
+    "esModuleInterop": true /* Enables us to write "import React from 'react'" instead of "import * as React from 'react'". */,
+    "forceConsistentCasingInFileNames": true
+  }
+}
