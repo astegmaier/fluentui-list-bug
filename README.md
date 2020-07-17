@@ -2,7 +2,14 @@
 
 This project reproduces an error in the `@fluentui/react-northstar` `<List>` component (version `0.50.0`). The issue is tracked in [bug #14091](https://github.com/microsoft/fluentui/issues/14091).
 
-To see it, run the app (which contains a simple `<List>` component with the `selectable` property set to `true`). Then select a different item on the list. You will see this error in your console:
+To see it...
+
+1. Clone the repo
+2. Install dependencies by running `yarn`
+3. Start the app by running `yarn start`. The app contains a simple `<List>` component with the `selectable` property set to `true`.
+4. Select a different item on the list.
+
+You will see this error in your console:
 
 ```
 index.js:27 Warning: Cannot update a component (`ListItem`) while rendering a different component (`ContextSelector.Provider`). To locate the bad setState() call inside `ContextSelector.Provider`, follow the stack trace as described in https://fb.me/setstate-in-render
